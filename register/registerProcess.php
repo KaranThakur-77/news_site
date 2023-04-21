@@ -19,3 +19,5 @@ if (!$conn) {
 
     # code...
 }
+?>
+hello
