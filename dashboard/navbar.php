@@ -11,9 +11,8 @@
 <body>
     <div class="navBar">
         <ul class="navBar" type="none" >
-            <li class="list"><a href=""><i class="fa-solid fa-table-columns fa-beat "> DashBoard</i></a></li>
+            <li class="list"><a href=""b class="dash"><i class="fa-solid fa-table-columns fa-beat "> DashBoard</i></a></li>
             <li class="list1"> <button class="btn1"> <a href="../login/login.php">ADMIN</a></button></li>
-            <li class="list2"> <button class="btn1"> <a href="">Login/Register</a></button></li>
         </ul>
     </div>
 </body>

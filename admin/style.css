@@ -1,0 +1,49 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: larger;
+}
+h1 {
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 3rem;
+  border: 2px solid black;
+  padding: 2rem 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  background-color: rgb(6, 121, 107);
+  color: aliceblue;
+  filter: drop-shadow(0.3rem 0.3rem grey);
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card {
+  margin-left: 2rem;
+  width: 20rem;
+  height: 20rem;
+  margin-top: 4rem;
+  padding: 2rem 2rem;
+  border: 2px solid black;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+h2 {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+i {
+  margin-left: 3rem;
+  margin-top: 2rem;
+}

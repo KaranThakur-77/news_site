@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Ubuntu:wght@300&display=swap');
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body{
+font-family: nunito;    
+font-size: x-large;
+font-weight: bold;
+}
+
+.background{
+  background-image: url(./images/bg1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: blur(4px);
+  height: 100vh;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  position: fixed;
+}
+.container{
+  margin-top: 3rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+h1{
+  text-align: center;
+  /* margin-top: 2rem; */
+  font-size: 50px;
+  margin-bottom: 2rem;
+}
+label{
+  width: 300px;
+  display: inline-block;
+  padding: 2rem 2rem ;
+}
+.btn1{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: larger;
+  font-weight: bold;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0px 2px 4px 6px rgba(0, 0, 0, 0.2);
+  margin-left: 40rem;
+  margin-bottom: 10rem;
+}
+input{
+  padding: 1rem 1rem;
+  text-align: center;
+  border-radius: 1rem;
+  width: 50rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-large;
+  font-weight: bold;
+}
+textarea{
+  padding: 1rem 1rem;
+  text-align: center;
+  border-radius: 1rem;
+  width: 50rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-large;
+  font-weight: bold;
+}
+.desc{
+ transform: translateY(-150px);
+}

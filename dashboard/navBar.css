@@ -18,12 +18,16 @@ body{
     padding: 1rem 1rem;
     border-radius: 2rem;
     position: absolute;
+    
     /* margin-bottom: 1rem; */
     /* filter: drop-shadow(0.5rem 0.5rem); */
 }
 a{
     text-decoration: none;
     color: black;
+}
+.dash{
+    color: aliceblue;
 }
 .btn1{
     font-family: 'Courier New', Courier, monospace;
@@ -37,9 +41,7 @@ a{
     /* text-decoration: none; */
 }
 .list1{
-    margin-left: 58rem;
+    margin-left: 69rem;
     text-decoration: none;
-}
-.list2{
-    margin-left: 3rem;
+    margin-bottom: 2rem;
 }

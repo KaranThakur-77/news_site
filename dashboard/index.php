@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="style.css">
       </head>
 <body>
-    <?php include_once("navbar.php");?>
+    <?php include_once("navbar.php");?> 
     <div class="background"></div>
     <div class="grid-container">
 <!-- PHP CODE HERE TO DISPLAY DATA -->

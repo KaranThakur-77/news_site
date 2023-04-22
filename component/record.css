@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bold;
+
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 2rem;
+    border: 2px dashed black;
+    border-radius: 0.5rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
+    padding: 1rem 1rem;
+    background-color: rgb(0, 136, 114);
+    color: aliceblue;
+    filter: drop-shadow(0.5rem 0.5rem gray);
+}
+table{
+    margin-top: 4rem;
+    margin-left: 2rem;
+    width: 92rem;
+    border: 3px solid black;
+    border-radius: 0.5rem;
+    padding: 1rem 1rem;
+}
+a{
+    text-decoration: none;
+    color: rgb(30,48,80);
+}
+

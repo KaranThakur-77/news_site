@@ -13,7 +13,7 @@ if (!$conn) {
     if ($result->num_rows>0) {
         session_start();
         $_SESSION['isLoggedIn']=true;
-        header('location:../dashboard/index.php');
+        header('location:../admin/operation.php');
     }
     else {
        echo("User does not exits in our database.");
