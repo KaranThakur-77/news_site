@@ -1,28 +1,53 @@
-<?php
-include("../component/connect.php");
-include("")
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+      </head>
 <body>
-<div class="card" style="width: 18rem;">
-  <img src="<?php echo($row['image']);?>" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title"><?php echo($row['title']);?></h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
+    <?php include_once("navbar.php");?>
+    <div class="background"></div>
+    <div class="grid-container">
+<!-- PHP CODE HERE TO DISPLAY DATA -->
+    <?php
+    include("../component/connect.php");
+    $sql=("SELECT * FROM news_table");
+    $result=$conn->query($sql);
+    if ($result->num_rows>0) {
+        while ($row=$result->fetch_assoc()) {
+            ?>
+   <div class="container">
+      <div class="card">
+        <div class="imgBox"><img src="<?php echo($row['image']);?>" alt="" /></div>
+        <div class="title"><h3><?php echo($row['title']);?></h3></div>
+        <div class="desc">
+          <p>
+            
+          <?php echo($row['description']);?>
+          </p>
+        </div>
+        <div class="author">
+          <h4>Author:<?php echo($row['author']);?></h4>
+          <h4>Date:<?php echo($row['date']);?></h4>
+        </div>
+      </div>
+    </div>
+  </body>
+      <?php    
+    }
+    # code...
+} else {
+    # code...
+}
+
+
+?>
+<!-- PHP CODE ENDS HERE  -->
 </div>
-    
+<h3 class="footer">&copy;All rights reserved@Karan Thakur <?php echo(date('Y-M-D'));?></h4>
+
 </body>
 </html>

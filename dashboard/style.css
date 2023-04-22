@@ -1,0 +1,85 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: larger;
+}
+.grid-container {
+  display: grid;
+  grid: auto / auto auto;
+  gap: 10px;
+  grid-row: 2;
+  padding: 10px;
+}
+.background {
+  background-image: url(../component/images/bg.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: blur(1px);
+  height: 110vh;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  position: fixed;
+}
+.container {
+  margin-top: 5rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  background-color: white;
+  border: 2px solid black;
+  padding: 2rem 2rem;
+  border-radius: 1rem;
+  filter: drop-shadow(0.5rem 0.5rem black);
+  display: flex;
+  cursor: pointer;
+}
+.imgBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  height: 200px;
+  width: 400px;
+  border-radius: 2rem;
+  transform: translateY(-20px);
+}
+.title {
+  text-align: center;
+  text-transform: uppercase;
+}
+.desc {
+  margin-top: 2rem;
+  padding: 1rem 1rem;
+  text-align: justify;
+  font-weight: bold;
+  border-radius: 1rem;
+  border: 2px dashed black;
+}
+.author {
+  transform: translateX(270px);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin-top: 2rem;
+  margin-right: 17rem;
+}
+.footer {
+  margin-top: 3rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  margin-bottom: 3rem;
+  padding: 1rem 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  border: 2px dashed black;
+  border-radius: 0.5rem;
+  background-color: bisque;
+  cursor: pointer;
+}

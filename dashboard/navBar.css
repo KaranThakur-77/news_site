@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bold;
+}
+.navBar{
+    background-color: transparent;
+    display: flex;
+    justify-content: space;
+    text-decoration: none;
+    /* margin-top: 1rem; */;
+    color: black;
+    padding: 1rem 1rem;
+    border-radius: 2rem;
+    position: absolute;
+    /* margin-bottom: 1rem; */
+    /* filter: drop-shadow(0.5rem 0.5rem); */
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.btn1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+.list{
+    margin-left: 5rem;
+    /* text-decoration: none; */
+}
+.list1{
+    margin-left: 58rem;
+    text-decoration: none;
+}
+.list2{
+    margin-left: 3rem;
+}
